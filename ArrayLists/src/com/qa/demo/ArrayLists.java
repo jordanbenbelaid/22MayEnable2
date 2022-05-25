@@ -18,7 +18,7 @@ public class ArrayLists {
 		//getting from a list using the index
 		System.out.println(cities.get(0));
 		
-		//setting an element in the list to something else
+		//setting an element in the list to something else, from index 0
 		cities.set(0, "Tokyo");
 		
 		//removes from a list using index
@@ -39,6 +39,8 @@ public class ArrayLists {
 		System.out.println("=======================================");
 		
 		Collections.reverse(cities);
+		System.out.println(cities);
+		Collections.swap(cities, 1, 3);
 		System.out.println(cities);
 	}
 
