@@ -1,5 +1,7 @@
 package com.qa.demo;
 
+import com.qa.solution.Solutions;
+
 public class Runner {
 
 	public static void main(String[] args) {
@@ -14,6 +16,7 @@ public class Runner {
 		
 		//replace
 		System.out.println("Hello, this is a test".replace("this", "that is such a bad test,"));
+		
 	}
 
 }
